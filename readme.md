@@ -7,8 +7,9 @@
 # MusicBeeTheme
 
 *MusicBeeTheme is a themes for MusicBee player*
-- `sergiye` - light theme
-- `sergiyeDark` - dark theme
+- `sergiye` - light blue theme
+- `sergiyeRed` - light red theme
+- `sergiyeDark` - dark blue theme
 - `sergiyeDarkGreen` - dark-green theme (experimental)
 
 

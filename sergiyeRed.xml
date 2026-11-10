@@ -4,6 +4,7 @@
     Background=252,250,250
     Highlight=183,65,83
     Highlight2=211,174,180
+    Highlight-Dark=135,35,52
     Highlight-Text=255,255,255
     Primary-Text=70,70,70
     Secondary-Text=28,24,25
@@ -177,6 +178,9 @@
     <element id="Content[Artwork].Body.Highlight" bg="Highlight" />
     <element id="Content[Artwork].Body.Lowlight" bg="Highlight2" />
     <element id="Content[Artwork].ArtworkText" bg="Background" fg="Secondary-Text" />
+    <element id="Content[Artwork].Expanded" bg="Disabled" fg="Secondary-Text" fg2="Highlight-Dark" />
+    <element id="Content[Artwork].Expanded.Highlight" bg="Highlight" fg="Highlight-Text" />
+    <element id="Content[Artwork].Expanded.Lowlight" bg="Highlight2" fg="Secondary-Text" />
     <element id="Content[ArtistProfile]" />
     <element id="LyricsPanel" />
     <element id="TrackInfoPanel" />

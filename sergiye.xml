@@ -4,11 +4,12 @@
     Background=252,251,247
     Highlight=135,172,235
     Highlight2=204,232,255
+    Highlight-Dark=50,90,160
     Highlight-Text=0,0,0
-    Primary-Text=75,75,75
-    Secondary-Text=25,25,25
-    Disabled=235,230,215
-    DarkGray=204,204,204
+    Primary-Text=70,70,70
+    Secondary-Text=28,24,25
+    Disabled=235,228,229
+    DarkGray=204,196,198
   </variables>
   <colours id="Default">
     \\ APP WINDOW  
@@ -177,6 +178,9 @@
     <element id="Content[Artwork].Body.Highlight" bg="Highlight" />
     <element id="Content[Artwork].Body.Lowlight" bg="Highlight2" />
     <element id="Content[Artwork].ArtworkText" bg="Background" fg="Secondary-Text" />
+    <element id="Content[Artwork].Expanded" bg="Disabled" fg="Secondary-Text" fg2="Highlight-Dark" />
+    <element id="Content[Artwork].Expanded.Highlight" bg="Highlight" fg="Highlight-Text" />
+    <element id="Content[Artwork].Expanded.Lowlight" bg="Highlight2" fg="Highlight-Text" />
     <element id="Content[ArtistProfile]" />
     <element id="LyricsPanel" />
     <element id="TrackInfoPanel" />
